@@ -1,0 +1,14 @@
+{
+  "versionCode": 2,
+  "versionName": "1.0.0",
+  "downloadUrl": "https://raw.githubusercontent.com/kamitechnology-mt/Kami-Gym/main/KamiGym.apk",
+  "releaseNotes": [
+    "Versione 1.0.0 (Build 2) - Rilascio Ufficiale",
+    "Gestione completa allenamenti, schede ed esercizi personalizzati",
+    "Supporto cardiofrequenzimetri e fasce cardio BLE standard (Heart Rate Service)",
+    "Sincronizzazione Cloud automatica e sicura con Firebase KamiVerse",
+    "Master Vault locale su disco per zero-loss e massima protezione offline dei dati",
+    "Player musicale in-app e timer di recupero con avvisi sonori",
+    "Sistema di Auto-Update integrato per aggiornamenti rapidi senza reinstallazione manuale"
+  ]
+}
