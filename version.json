@@ -15,7 +15,7 @@
     "Barra Modifica Moduli fissa in alto con perfetto distanziamento dal notch e dall'area di sicurezza",
     "Correzione pulsante ✕ 'Annulla ed Esci' con ripristino istantaneo e fedele dell'ordine precedente dei moduli",
     "Touch Scroll Moduli: scorrimento verticale da smartphone completamente sbloccato e fluido anche in modalità modifica layout",
-    "Ottimizzazione Quota Cloud Firebase: blocco totale degli echo-loop real-time, smart diff con hash MD5 anti-spreco, debounce di 5s e cache intelligente verifica nickname",
+    "Ottimizzazione Quota Cloud Firebase: blocco totale degli echo-loop real-time, smart diff con hash MD5 anti-spreco, sincronizzazione periodica in idle ogni 5 minuti e cache intelligente verifica nickname",
     "Setup Profilo & Reset Dati: rimosso qualsiasi nickname di default, il campo ID KamiVerse è ora inizialmente vuoto e a compilazione obbligatoria"
   ]
 }
