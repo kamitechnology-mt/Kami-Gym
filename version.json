@@ -1,19 +1,12 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.0",
+  "versionCode": 4,
+  "versionName": "1.0.1",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-Gym/releases/download/Aggiornamento/KamiGym.apk",
   "releaseNotes": [
-    "Versione 1.0.0 (Build 3) - KamiGym Release Ufficiale",
-    "Backup & Ripristino Multi-Formato: Esportazione e importazione completa nei formati JSON nativo (consigliato per ripristino fedele), Excel (.xlsx multi-foglio), tabelle CSV e documento TXT, con nuova interfaccia protetta",
-    "Configurazione Recupero Personalizzato: Impostazione precisa del timer di default con caselle dedicate per minuti e secondi nelle Impostazioni, sincronizzato istantaneamente con il timer attivo in allenamento",
-    "Notifiche Recupero in Background: Avviso sonoro e notifica heads-up al termine del tempo di riposo anche con l'app minimizzata o in background, con gestione diretta dei permessi di notifica",
-    "Note Workout Rapide in Top Bar: Nuovo pulsante dorato nella barra superiore per accedere istantaneamente alle note della sessione, visibile contestualmente solo durante un allenamento attivo",
-    "Ottimizzazione Cloud & Sincronizzazione: Sistema di Mutex in-flight e debounce anti-duplicati in chiusura/background per azzerare le chiamate ridondanti verso Firebase e tutelare le quote del database",
-    "Rebranding Completo KamiGym & KamiVerse: Uniformata l'identità dell'applicazione, della schermata di onboarding, dell'autenticazione cloud e dei dialoghi di sistema",
-    "Rework Schede & Serie Workout: Visualizzazione snella a due righe per le serie [Carico × Reps], selettore di carico indipendente Singolo/Totale (S/T) per ogni set e titoli con formattazione anti-tranciatura",
-    "Diario del Peso & Storico a Fisarmonica: Cassetto espandibile per le pesate registrate con metriche riepilogative (Ultimo Peso, Iniziale, Variazione) e storico allenamenti fluido ad alte prestazioni",
-    "Supporto Cardiofrequenzimetri BLE: Monitoraggio continuo dei battiti cardiaci (BPM) in tempo reale compatibile con fasce e dispositivi Bluetooth Low Energy standard",
-    "Personalizzazione Layout Modulare: Modalità di riordino visivo dei moduli del profilo con drag & scroll fluido da smartphone e pulsante di annullamento con ripristino fedele",
-    "Master Vault Zero-Loss & Auto-Update: Architettura sicura con priorità al cloud in caso di modifiche recenti, persistenza locale a prova di disconnessione e verifica automatica delle nuove versioni APK"
+    "Versione 1.0.1 (Build 4) - Patch Note & Novità",
+    "Risoluzione Reset Schermate: Risolto definitivamente il problema di ricaricamento o reset della vista ad ogni apertura delle finestre modali.",
+    "Controlli Rapidi Inferiori: Aggiunti i tasti di azione rapida anche nella parte inferiore della scheda Allenamento per una gestione comoda senza dover scorrere in alto.",
+    "Riprogettazione Layout Schede: Riorganizzato il layout delle schede di allenamento per un perfetto allineamento dei tasti e una spaziatura simmetrica e pulita.",
+    "Tecnologia Live Update (Android 15+): Integrazione delle notifiche promosse in tempo reale (Chip nella barra di stato, Isola dinamica e schermata di blocco) per monitorare il tempo di allenamento e il conto alla rovescia di recupero anche ad app chiusa o in background."
   ]
 }
