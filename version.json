@@ -1,12 +1,13 @@
 {
-  "versionCode": 4,
+  "versionCode": 5,
   "versionName": "1.0.1",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-Gym/releases/download/Aggiornamento/KamiGym.apk",
   "releaseNotes": [
-    "Versione 1.0.1 (Build 4) - Patch Note & Novità",
-    "Risoluzione Reset Schermate: Risolto definitivamente il problema di ricaricamento o reset della vista ad ogni apertura delle finestre modali.",
-    "Controlli Rapidi Inferiori: Aggiunti i tasti di azione rapida anche nella parte inferiore della scheda Allenamento per una gestione comoda senza dover scorrere in alto.",
-    "Riprogettazione Layout Schede: Riorganizzato il layout delle schede di allenamento per un perfetto allineamento dei tasti e una spaziatura simmetrica e pulita.",
-    "Tecnologia Live Update (Android 15+): Integrazione delle notifiche promosse in tempo reale (Chip nella barra di stato, Isola dinamica e schermata di blocco) per monitorare il tempo di allenamento e il conto alla rovescia di recupero anche ad app chiusa o in background."
+    "Versione 1.0.1 (Build 5) - Patch Note & Novità",
+    "Supporto Video via URL: Aggiunta la possibilità di inserire video per gli esercizi custom tramite link web (YouTube, YouTube Shorts, Vimeo e file MP4). Riproduzione responsive fluida in 16:9 con loop e apertura rapida su YouTube.",
+    "Reps Singole SX / DX Dinamiche: Suddivisione intelligente delle ripetizioni per lato (SX e DX) con caselle dedicate e badge visivi ad alta visibilità, attiva solo quando la modalità esercizio è impostata su Singolo (S).",
+    "Layout Allenamento Compatto: Allineamento ergonomico su singola riga di Peso, Reps e Selettore Singolo/Totale (S/T) per la massima velocità di inserimento durante le serie.",
+    "Sezione Crea Scheda con Filtri Avanzati: Nuova sezione a schermo intero dedicata alla creazione e modifica delle schede, con ricerca e filtri completi per gruppo muscolare e attrezzatura (identici al tab Esercizi) e popup di anteprima tecnica 1:1 con badge ed esecuzione.",
+    "Modal Aggiornamenti & Riscarica: Snellito il popup di aggiornamento con rimando diretto a Impostazioni > Note Aggiornamento, e introdotta la voce Riscarica Aggiornamento nelle impostazioni."
   ]
 }
