@@ -1,13 +1,20 @@
 {
-  "versionCode": 5,
+  "versionCode": 6,
   "versionName": "1.0.1",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-Gym/releases/download/Aggiornamento/KamiGym.apk",
   "releaseNotes": [
-    "Versione 1.0.1 (Build 5) - Patch Note & Novità",
-    "Supporto Video via URL: Aggiunta la possibilità di inserire video per gli esercizi custom tramite link web (YouTube, YouTube Shorts, Vimeo e file MP4). Riproduzione responsive fluida in 16:9 con loop e apertura rapida su YouTube.",
-    "Reps Singole SX / DX Dinamiche: Suddivisione intelligente delle ripetizioni per lato (SX e DX) con caselle dedicate e badge visivi ad alta visibilità, attiva solo quando la modalità esercizio è impostata su Singolo (S).",
-    "Layout Allenamento Compatto: Allineamento ergonomico su singola riga di Peso, Reps e Selettore Singolo/Totale (S/T) per la massima velocità di inserimento durante le serie.",
-    "Sezione Crea Scheda con Filtri Avanzati: Nuova sezione a schermo intero dedicata alla creazione e modifica delle schede, con ricerca e filtri completi per gruppo muscolare e attrezzatura (identici al tab Esercizi) e popup di anteprima tecnica 1:1 con badge ed esecuzione.",
-    "Modal Aggiornamenti & Riscarica: Snellito il popup di aggiornamento con rimando diretto a Impostazioni > Note Aggiornamento, e introdotta la voce Riscarica Aggiornamento nelle impostazioni."
+    "Versione 1.0.1 (Build 6) - Patch Note & Novità",
+    "Albo d'Oro dei Sostenitori in Modal Dedicato: Aggiunto nelle Impostazioni, sotto la donazione PayPal, il tasto 'Mostra Sostenitori' che apre un popup esclusivo con una dedica di ringraziamento e l'elenco in tempo reale di tutti i sostenitori ufficiali (@nickname) con corona dorata. Architettura con Smart Cache a 15 minuti e Smart Diff Check per un'apertura istantanea a costo zero sulle quote Firestore.",
+    "Zero Emoji & Iconografia SVG Vettoriale ad Alta Risoluzione: Revisionata l'intera interfaccia dell'applicazione rimuovendo ogni singola emoji di sistema ed effettuando la conversione integrale a splendide icone vettoriali SVG ad altissima fedeltà visiva (stile Lucide), per un'esperienza premium, pulita e professionale su qualsiasi densità di schermo.",
+    "Blindatura Video Ufficiali & Personalizzazione Esclusiva per i 404: I video e le dimostrazioni ufficiali del catalogo sono ora protetti da modifiche accidentali. La possibilità di aggiungere un media personale (e la relativa icona penna di modifica) è ora riservata esclusivamente agli esercizi privi di dimostrazione o con errore 404 Not Found.",
+    "Ottimizzazione Selezione Media ('CONSIGLIATO'): Nel modal di inserimento media per gli esercizi, il caricamento tramite Link Web (YouTube, MP4, web) è ora contrassegnato con il badge 'CONSIGLIATO', mentre l'opzione Galleria è stata resa secondaria per evitare un eccessivo consumo di memoria locale sul dispositivo.",
+    "Player YouTube Istantaneo & Risoluzione Schermo Nero: Risolto il blocco a schermo nero durante il caricamento dei video YouTube tramite preload immediato della copertina HD e player iFrame asincrono con thumbnail in alta definizione sempre visibile durante il buffering.",
+    "Verifica Totale Catalogo Media (4.044 Video Online): Scansione approfondita su tutti i 5.632 esercizi internazionali direttamente sui server CDN Backblaze B2. Verificati ed isolati con precisione i 4.044 video reali online e rimossi i falsi riferimenti per i 1.588 esercizi con media inesistente (404 Not Found).",
+    "Anteprime Smart con Icona '+' di Default: Nei 1.588 esercizi senza video o con media assente, l'anteprima mostra ora immediatamente il riquadro dorato tratteggiato con l'icona '+' fin dal primo caricamento, eliminando l'errata icona 'Play MP4' che appariva in precedenza prima del click.",
+    "Auto-Cleanup Intelligente & Liberazione Memoria: In caso di sincronizzazione da OpenGym, se un giorno la community ufficiale rilascerà il video per un esercizio personalizzato dall'utente, KamiGym sovrascriverà in automatico il media liberando spazio da LocalStorage e Cloud Firestore. Se OpenGym non dispone del video, il media personalizzato dell'utente viene preservato al 100%.",
+    "Protezione Quota Database & Ottimizzazione (0 KB Web Links): Promozione attiva dei link video web (YouTube, YouTube Shorts, Giphy, Tenor, MP4) a peso zero (0 KB) per preservare i limiti di memoria di LocalStorage (5MB) e Firestore (1MB). Bloccato il caricamento di GIF locali superiori a 400KB e compressione automatica delle foto galleria in JPEG a 480px.",
+    "Player Video MP4 Fluido, Outro Cutoff & Zero-Lag: Introdotto il taglio automatico intelligente degli ultimi 6.4 secondi sui video OpenGym per escludere le schermate finali inutili e visualizzare solo il gesto atletico puro in loop. Ottimizzato il rilascio immediato delle risorse video e GPU alla chiusura per eliminare qualsiasi rallentamento sui click del tab Esercizi.",
+    "Stato di Caricamento MP4 Elegante: Aggiunto indicatore visivo dedicato con spinner e dicitura 'Caricamento MP4 in corso...' durante il buffering dei video per una transizione fluida e senza schermate vuote.",
+    "Storage Guardian & Self-Healing Compaction: Protezione attiva contro quote superate in LocalStorage e IndexedDB (Master Vault Zero-Loss), con pulizia mirata dei delta e compattazione automatica senza perdita di dati dell'utente."
   ]
 }
