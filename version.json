@@ -1,9 +1,13 @@
 {
-  "versionCode": 11,
+  "versionCode": 12,
   "versionName": "1.0.3",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-Gym/releases/download/Aggiornamento/KamiGym.apk",
   "releaseNotes": [
-    "Versione 1.0.3 (Build 11) - Patch Note & Novità",
+    "Versione 1.0.3 (Build 12) - Hotfix",
+    "Salvataggio Schede in Allenamento: risolto il problema per cui le modifiche apportate durante la sessione (serie aggiuntive, nuovi carichi e ripetizioni) non venivano salvate nella scheda originale; ripristinato il confronto dettagliato prima/dopo nel modale finale.",
+    "Self-Healing Profilo Cloud all'Avvio: rilevamento e correzione automatica istantanea dei dati del profilo rimasti ai valori di default su Firestore (collection users), con sincronizzazione automatica del peso reale e dei parametri atleta senza richiedere salvataggi manuali.",
+    "Avvio Istantaneo dell'App: rimozione del blocco di rete durante lo splash loader per garantire un'apertura immediata in meno di un secondo dai dati locali, spostando sincronizzazione Cloud e Self-Healing in background.",
+    "Patch Note & Novità Versione 1.0.3:",
     "Esercizio Singolo o Totale (S / T): selezione e configurazione del carico Singolo o Totale (con ripetizioni SX e DX) direttamente in fase di creazione e modifica della scheda, mantenute fedelmente durante e dopo l'allenamento.",
     "Scheda modificabile dal Calendario: possibilità di selezionare e modificare la scheda direttamente dal calendario premendo l'icona con le frecce o il nome della scheda.",
     "Calcolo Dischi visibile durante l'allenamento: tasto rapido posizionato in alto a destra nella barra superiore per aprire il calcolatore dischi e bilanciere in qualsiasi momento della sessione.",
