@@ -1,18 +1,14 @@
 {
-  "versionCode": 13,
+  "versionCode": 14,
   "versionName": "1.0.4",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-Gym/releases/download/Aggiornamento/KamiGym.apk",
   "releaseNotes": [
-    "Versione 1.0.4 (Build 13) - Aggiornamento",
-    "Notifica Live Interattiva: rivisitata completamente la grafica della Notifica Live in stile Dark Card con visualizzazione in tempo reale dell'esercizio corrente, carico × ripetizioni (es. 14×10), contatore della serie (es. Serie 1/4) e pulsante rapido '✓ Fatto' per completare la serie direttamente dalla notifica o dalla lockscreen e passare subito alla serie successiva.",
-    "Pannello di Fine Allenamento Rinnovato: restyling grafico del riepilogo di fine sessione con icone SVG ad alta definizione per le tipologie di serie (Warm-up, Drop Set, Cedimento) e badge dedicati per il carico Singolo (S) e Totale (T).",
-    "Storico Allenamenti & Progressione: rivisitato il pannello Storico e Progressione con l'introduzione delle icone ufficiali per i tipi di serie e l'aggiunta della colonna/badge S (Singolo) o T (Totale) per ogni serie registrata.",
-    "Nuovo Menu Opzioni a Categorie e Tendine: riorganizzate le Impostazioni in 5 categorie tematiche (Ringraziamenti, Tweaks, Aspetto dell'App, KamiVerse, Info & Aggiornamenti) con icone SVG dedicate e schede espandibili/richiudibili a tendina, con salvataggio automatico dello stato aperto/chiuso in locale e su Cloud.",
-    "Preferenze di Salvataggio Fine Allenamento: aggiunta nella sezione Tweaks la possibilità di scegliere singolarmente per ogni tipo di modifica (nuovi esercizi, sostituzioni, rimozioni, numero serie, carichi, ripetizioni, modalità S/T, tipologia serie, super serie e ordine esercizi) se aggiornare la scheda in automatico ('Auto') o se chiedere conferma a fine allenamento ('Chiedi').",
-    "Nuovo Gruppo Muscolare 'Abduttori & Adduttori': introdotta la categoria muscolare dedicata per gli esercizi di abduzione e adduzione dell'anca con icona anatomica su misura, filtri di ricerca, istruzioni tecniche e calcolo del recupero muscolare.",
-    "Revisione Esercizi & Media Abductor / Adductor: corretta l'inversione tra Abductor e Adductor Machine nel catalogo openGym, risolta l'errata assegnazione sotto Addome & Core, associati i media e le animazioni corrette e aggiunto l'auto-allineamento per le schede già salvate.",
-    "Moderazione AI NSFW Ottimizzata: perfezionato l'algoritmo AI NSFW per eliminare automaticamente eventuali residui di media già rimossi e calibrata l'analisi sulle illustrazioni anatomiche del catalogo openGym per azzerare i falsi positivi.",
-    "Fix Salvataggio Modalità S / T: risolto un bug per il quale la modifica della modalità di carico tra Singolo (S) e Totale (T) durante l'allenamento veniva salvata automaticamente senza essere mostrata nel riepilogo modifiche di fine sessione.",
-    "Ottimizzazione Memoria & Sync Cloud: migliorata la gestione della memoria locale (StorageGuardian) per prevenire saturazioni di quota durante la sincronizzazione rapida con Firebase."
+    "Versione 1.0.4 (Build 14) - Aggiornamento",
+    "Fix Notifica Live Interattiva (Android 15+): risolto definitivamente il problema per cui premendo '✓ Fatto' dalla Notifica Live o dalla schermata di blocco le serie completate non venivano registrate rientrando nell'app. Introdotta una sincronizzazione atomica tra servizio nativo e app con riallineamento automatico anche al rientro dal background, gestione delle serie unilaterali (SX/DX) e posizionamento automatico sull'esercizio attivo.",
+    "Nuovo Storico Allenamenti 'Calendarizzato': rivisitata completamente la sezione Storico Allenamenti con interfaccia a Calendario coerente con la schermata Home. Nel Profilo rimane sempre visibile la settimana corrente con accesso rapido allo storico completo, navigabile per mese, anno e settimana (Prima–Quinta settimana), con riepilogo dettagliato dell'allenamento a scorrimento verso il basso e pulsante rapido per tornare al calendario.",
+    "Fix Reset & Ricalcolo Personal Record (PR): risolto il bug per cui resettando lo Storico Allenamenti (o annullando/modificando serie già spuntate) i vecchi PR rimanevano visibili nella sezione Esercizi e su Cloud. Aggiunto inoltre l'allineamento automatico all'avvio che rimuove qualsiasi PR residuo in assenza di storico.",
+    "Notifiche Push & Popup Multi-Dispositivo: risolto il problema per cui le notifiche push venivano recapitate solo all'ultimo dispositivo connesso (es. solo PC invece che anche su smartphone). Ora ogni dispositivo collegato allo stesso account registra il proprio token dedicato e riceve contemporaneamente sia le notifiche push FCM sia gli avvisi in-app.",
+    "Avvio Fluido & Zero 'Lag-Stutter' all'Apertura: spostati il pre-caricamento del database esercizi, delle schede e la sincronizzazione iniziale Cloud direttamente nella schermata di caricamento iniziale, eliminando rallentamenti e tocchi persi subito dopo l'apertura o la riapertura dell'app.",
+    "Stabilità, Memoria & Performance Generali: ottimizzato il montaggio progressivo delle sezioni in background, alleggerita la gestione della memoria locale e posticipate in inattività le operazioni secondarie per garantire massima fluidità e reattività su Android anche nelle sessioni più lunghe."
   ]
 }
