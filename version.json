@@ -1,14 +1,15 @@
 {
-  "versionCode": 14,
+  "versionCode": 15,
   "versionName": "1.0.4",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-Gym/releases/download/Aggiornamento/KamiGym.apk",
   "releaseNotes": [
-    "Versione 1.0.4 (Build 14) - Aggiornamento",
+    "Versione 1.0.4 (Build 15) - Aggiornamento",
     "Fix Notifica Live Interattiva (Android 15+): risolto definitivamente il problema per cui premendo '✓ Fatto' dalla Notifica Live o dalla schermata di blocco le serie completate non venivano registrate rientrando nell'app. Introdotta una sincronizzazione atomica tra servizio nativo e app con riallineamento automatico anche al rientro dal background, gestione delle serie unilaterali (SX/DX) e posizionamento automatico sull'esercizio attivo.",
-    "Nuovo Storico Allenamenti 'Calendarizzato': rivisitata completamente la sezione Storico Allenamenti con interfaccia a Calendario coerente con la schermata Home. Nel Profilo rimane sempre visibile la settimana corrente con accesso rapido allo storico completo, navigabile per mese, anno e settimana (Prima–Quinta settimana), con riepilogo dettagliato dell'allenamento a scorrimento verso il basso e pulsante rapido per tornare al calendario.",
+    "Nuovo Storico Allenamenti 'Calendarizzato' Integrato nel Profilo: rivisitata la sezione Storico Allenamenti con calendario mensile/settimanale (Prima–Quinta settimana) integrato direttamente nel Profilo senza doppie pagine o riepiloghi duplicati, espansione rapida delle sessioni del giorno, pulsante per tornare subito alla settimana attuale e Mappa Muscolare dedicata.",
+    "Allenamento Libero — Rinomina & Salva come Scheda: ora durante un Allenamento Libero o alla chiusura della sessione puoi assegnare un nome personalizzato all'allenamento e salvarlo direttamente come nuova Scheda (con esercizi, serie, carichi, ripetizioni, superserie e giorni della settimana opzionali).",
+    "Sincronizzazione Cloud & Notifiche Multi-Dispositivo (PC ↔ Smartphone): risolto il disallineamento delle schede create su PC verso smartphone, unificato l'orario di sincronizzazione tramite timestamp del server, reso indipendente per singolo dispositivo il timer antispam del sync manuale e abilitata la ricezione simultanea delle notifiche push su tutti i dispositivi collegati allo stesso account.",
+    "Fix Sincronizzazione Profilo Atleta & Ottimizzazione Quote Cloud: eliminata la riscrittura ridondante del profilo utente a ogni operazione e risolto il bug per cui aggiornamenti parziali (es. Diario del Peso o Avatar) resettavano i dati biometrici ai valori predefiniti. Introdotta la sincronizzazione differenziale campo-per-campo e il completamento guidato del profilo per i nuovi iscritti.",
     "Fix Reset & Ricalcolo Personal Record (PR): risolto il bug per cui resettando lo Storico Allenamenti (o annullando/modificando serie già spuntate) i vecchi PR rimanevano visibili nella sezione Esercizi e su Cloud. Aggiunto inoltre l'allineamento automatico all'avvio che rimuove qualsiasi PR residuo in assenza di storico.",
-    "Notifiche Push & Popup Multi-Dispositivo: risolto il problema per cui le notifiche push venivano recapitate solo all'ultimo dispositivo connesso (es. solo PC invece che anche su smartphone). Ora ogni dispositivo collegato allo stesso account registra il proprio token dedicato e riceve contemporaneamente sia le notifiche push FCM sia gli avvisi in-app.",
-    "Avvio Fluido & Zero 'Lag-Stutter' all'Apertura: spostati il pre-caricamento del database esercizi, delle schede e la sincronizzazione iniziale Cloud direttamente nella schermata di caricamento iniziale, eliminando rallentamenti e tocchi persi subito dopo l'apertura o la riapertura dell'app.",
-    "Stabilità, Memoria & Performance Generali: ottimizzato il montaggio progressivo delle sezioni in background, alleggerita la gestione della memoria locale e posticipate in inattività le operazioni secondarie per garantire massima fluidità e reattività su Android anche nelle sessioni più lunghe."
+    "Avvio Fluido, Stabilità & Zero 'Lag-Stutter': spostati il pre-caricamento del database esercizi, delle schede e la sincronizzazione iniziale Cloud direttamente nella schermata di caricamento iniziale, ottimizzando memoria e fluidità generale su Android."
   ]
 }
