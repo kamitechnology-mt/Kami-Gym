@@ -1,9 +1,12 @@
 {
-  "versionCode": 15,
+  "versionCode": 16,
   "versionName": "1.0.4",
   "downloadUrl": "https://github.com/kamitechnology-mt/Kami-Gym/releases/download/Aggiornamento/KamiGym.apk",
   "releaseNotes": [
-    "Versione 1.0.4 (Build 15) - Aggiornamento",
+    "Versione 1.0.4 (Build 16) - Aggiornamento",
+    "Ricerca Esercizi Intelligente & Priorità 'Già fatto': potenziata la ricerca in tutto l'ecosistema (Catalogo Esercizi, Aggiunta Esercizio e Sostituisci Esercizio) con tolleranza automatica a doppi spazi accidentali, accenti, punteggiatura, ordine libero delle parole e piccoli refusi. Gli esercizi già svolti nei tuoi allenamenti vengono ora mostrati sempre in cima ai risultati con il badge verde '✓ Già fatto'.",
+    "Scudo Anti-Perdita Salvataggi Offline, Auto-Recupero Sessioni & 'Salva come Scheda' nello Storico: blindato il salvataggio immediato su disco alla chiusura dell'allenamento e delle schede anche in assenza di rete o chiusura rapida dell'app, introdotta l'unione intelligente anti-sovrascrittura tra dispositivi, l'auto-recupero automatico all'avvio di eventuali sessioni rimaste nel database locale e il nuovo tasto '+ Salva come Scheda' direttamente dentro lo Storico Allenamenti.",
+    "Ordinamento & Riordino Personalizzato delle Schede: aggiunto in 'Le tue Schede' il filtro rapido per ordinare le routine per data di creazione ('Più recenti' in alto) oppure in ordine 'Personalizzato' con frecce su/giù dedicate, mantenendo automaticamente lo stesso posizionamento anche nella selezione schede dentro il Calendario e sincronizzandolo su Cloud.",
     "Fix Notifica Live Interattiva (Android 15+): risolto definitivamente il problema per cui premendo '✓ Fatto' dalla Notifica Live o dalla schermata di blocco le serie completate non venivano registrate rientrando nell'app. Introdotta una sincronizzazione atomica tra servizio nativo e app con riallineamento automatico anche al rientro dal background, gestione delle serie unilaterali (SX/DX) e posizionamento automatico sull'esercizio attivo.",
     "Nuovo Storico Allenamenti 'Calendarizzato' Integrato nel Profilo: rivisitata la sezione Storico Allenamenti con calendario mensile/settimanale (Prima–Quinta settimana) integrato direttamente nel Profilo senza doppie pagine o riepiloghi duplicati, espansione rapida delle sessioni del giorno, pulsante per tornare subito alla settimana attuale e Mappa Muscolare dedicata.",
     "Allenamento Libero — Rinomina & Salva come Scheda: ora durante un Allenamento Libero o alla chiusura della sessione puoi assegnare un nome personalizzato all'allenamento e salvarlo direttamente come nuova Scheda (con esercizi, serie, carichi, ripetizioni, superserie e giorni della settimana opzionali).",
